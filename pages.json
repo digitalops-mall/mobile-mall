@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "天味",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/product-detail/product-detail",
+            "style" : {}
+        },{
+            "path" : "pages/product-detail/product-simple",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/money/pay",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/money/paySuccess",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/uni-center/uni-center",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/reg/reg",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/pwd/pwd",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/address/edit/edit",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/list-detail",
+            "style" : {}
+        }
+    ],
+	// "subpackages": [
+	//     {
+	//       "root": "packageA", //  分包名
+	//       "pages": [
+	//         {
+	//           "path": "index/index" // 分包的页面
+	//         }
+	//       ]
+	//     }
+	// ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "天味",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
